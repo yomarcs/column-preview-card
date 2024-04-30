@@ -43,6 +43,7 @@ body {
   width: 86%;
   min-width: 300px;
   max-width: 320px;
+  height: 1320px;
   margin: auto;
   margin-block: 40px;
   background-color: hsl(0, 0%, 95%);
@@ -142,9 +143,16 @@ body {
   }
   .attribution {
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    text-orientation: mixed;
+  }
+}
+@media screen and (max-height: 560px) {
+  .container {
+    margin-block: 20px;
+  }
+  .attribution {
+    visibility: hidden;
   }
 }/*# sourceMappingURL=styles.css.map */

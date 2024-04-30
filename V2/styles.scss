@@ -22,6 +22,7 @@ body{
   width: 86%;
   min-width: 300px;
   max-width: 320px;
+  height: 1320px;
   margin: auto;
   margin-block: 40px;
   background-color: $color_very-light-gray;
@@ -122,9 +123,17 @@ body{
   }
   .attribution{
     position: absolute;
-    bottom: 15px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    text-orientation: mixed;
+  }
+}
+
+@include attribution{
+  .container{
+    margin-block: 20px;
+  }
+  .attribution{
+    visibility: hidden;
   }
 }

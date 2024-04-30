@@ -3,3 +3,9 @@
     @content;
   }
 }
+
+@mixin attribution{
+  @media screen and (max-height: 560px){
+    @content;
+  }
+}
