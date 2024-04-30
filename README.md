@@ -22,7 +22,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [https://github.com/yomarcs/column-preview-card/blob/main/index.html](https://github.com/yomarcs/column-preview-card/blob/main/index.html)
+- Solution URL: [https://github.com/yomarcs/column-preview-card/blob/main/index.html](https://github.com/yomarcs/column-preview-card/blob/main/V2)
 - Live Site URL: [https://yomarcs.github.io/column-preview-card/](https://yomarcs.github.io/column-preview-card/)
 
 ### Built with
